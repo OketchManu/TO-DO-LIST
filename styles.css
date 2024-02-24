@@ -1,0 +1,53 @@
+/* Apply styles to the entire body */
+body {
+    background-color: yellowgreen; /* Light yellow background */
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color:green; /* Green header background */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Style the input form */
+#todo-form {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+/* Style the input field */
+#todo-input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the add button */
+#add-button {
+    background-color: #4caf50; /* Green button background */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the to-do list */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem auto;
+    max-width: 400px;
+}
+
+/* Style individual list items */
+li {
+    background-color: green; /* Light yellow list item background */
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+}
